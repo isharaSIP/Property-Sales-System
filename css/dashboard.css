@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.siteName
+{
+    text-align:left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1, h5{
+    margin-top: -60px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+h5 {
+    margin-top: -20px;
+}
+
+.box1 {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px #aaa;
+}
+
+
+h2, #menu {
+    text-align: center;
+}
+
+.header {
+    background-color: #4CAF50;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.box2 {
+    display: flex;
+    height: 700px;
+}
+
+
+.sidebar {
+    background: linear-gradient(to bottom, #333, #555);
+    width: 250px;
+    color: white;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #4CAF50; /
+}
+
+.main-content {
+    background-color: #e8e8e8;
+    width: 100%;
+    padding: 20px;
+}
+
+#details {
+    background-color: #fff; 
+    padding: 25px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    width: 50%; 
+    font-size: 18px; 
+    border-radius: 7px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #325933;
+    color: white;
+}
+
+
+#okbtn, #nobtn {
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 5px; 
+    border-radius: 5px; 
+}
+
+#okbtn {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+#nobtn {
+    background-color: hsl(0, 100%, 40%); 
+    color: white;
+}
+
+#okbtn:hover, #nobtn:hover {
+    background-color: #2c465d; 
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    height: 30px;
+}
